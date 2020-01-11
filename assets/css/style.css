@@ -111,7 +111,7 @@ hr {
   margin-right: 50px;
   height: 1px;
   background-color:black;
--webkit-margin-collapse: discard;
+  -webkit-margin-collapse: discard;
 
   }
 
