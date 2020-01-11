@@ -3,6 +3,7 @@ body {
     font-size: 16px;
     line-height: 1;
     text-align-last: center;
+    text-align: center;
   }
   
   textarea{
@@ -39,39 +40,39 @@ body {
   }
   #nineAm{
     margin-left: 25px;
-    width: 500px;
+    width: 400px;
   }
   #tenAm{
     margin-left: 25px;
-    width: 500px;
+    width: 400px;
   }
   #eleven{
     margin-left: 25px;
-    width: 500px;
+    width: 400px;
   }
   #noon{
     margin-left: 25px;
-    width: 500px;
+    width: 400px;
   }
   #onePm{
     margin-left: 25px;
-    width: 500px;
+    width: 400px;
   }
   #twoPm{
     margin-left: 25px;
-    width: 500px;
+    width: 400px;
   }
   #threePm{
     margin-left: 25px;
-    width: 500px;
+    width: 400px;
   }
   #fourPm{
     margin-left: 25px;
-    width: 500px;
+    width: 400px;
   }
   #fivePm{
     margin-left: 25px;
-    width: 500px;
+    width: 400px;
   }
   
   .row {
