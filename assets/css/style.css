@@ -1,0 +1,116 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    text-align-last: center;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+  
+  }
+  
+  #container{
+    font-variant-caps: small-caps;
+    display: inline-flex;
+    max-width: 1140px;
+  }
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  #nineAm{
+    margin-left: 25px;
+    width: 500px;
+  }
+  #tenAm{
+    margin-left: 25px;
+    width: 500px;
+  }
+  #eleven{
+    margin-left: 25px;
+    width: 500px;
+  }
+  #noon{
+    margin-left: 25px;
+    width: 500px;
+  }
+  #onePm{
+    margin-left: 25px;
+    width: 500px;
+  }
+  #twoPm{
+    margin-left: 25px;
+    width: 500px;
+  }
+  #threePm{
+    margin-left: 25px;
+    width: 500px;
+  }
+  #fourPm{
+    margin-left: 25px;
+    width: 500px;
+  }
+  #fivePm{
+    margin-left: 25px;
+    width: 500px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: black;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: black;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: black;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+    width: 70px;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
