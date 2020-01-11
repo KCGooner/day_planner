@@ -21,27 +21,24 @@ $('input[type="text"]').each(function () {
     document.getElementById(getting).value = letsGrab; 
 });
 
+colorChecks(9, "#nineAm"); 
+colorChecks(10, "#tenAm"); 
+colorChecks(11, "#eleven"); 
+colorChecks(12, "#noon"); 
+colorChecks(13, "#onePm");
+colorChecks(14, "#twoPm"); 
+colorChecks(15, "#threePm"); 
+colorChecks(16, "#fourPm"); 
+colorChecks(17, "#fivePm"); 
 
-
-timeCheck(9, "#nineAm");
-timeCheck(10, "#tenAm");
-timeCheck(11, "#eleven");
-timeCheck(12, "#noon");
-timeCheck(1, "#onePm");
-timeCheck(2, "#twoPm");
-timeCheck(3, "#threePm");
-timeCheck(4, "#fourPm");
-timeCheck(5, "#fivePm");
-
-
-function timeCheck(time, theId) {
+function colorChecks(time, theId) { 
     if (nowHour > time) { 
         $(theId).addClass("past"); 
     }
-    if (nowHour < time) {
-        $(theId).addClass("future");
+    if (nowHour < time) { 
+        $(theId).addClass("future"); 
     }
-    if (nowHour == time) {
+    if (nowHour == time) { 
         $(theId).addClass("present");
     }
 }
