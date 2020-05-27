@@ -18,6 +18,7 @@ textarea{
   font-variant-caps: small-caps;
   align-items: center;
   text-align-last: center;
+  max-width: 1140px;
 }
 .jumbotron {
   text-align: center;
@@ -83,6 +84,7 @@ textarea{
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+  width: 600px;
 }
 
 .hour {
@@ -122,7 +124,7 @@ hr {
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-  width: 70px;
+  width: 60px;
 }
 
 .saveBtn i:hover {
