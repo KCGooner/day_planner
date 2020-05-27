@@ -25,7 +25,7 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 5px solid black;
 }
 
 .description{
@@ -82,7 +82,7 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 60px;
   border-top: 1px solid white;
 }
 
@@ -130,3 +130,4 @@ hr {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
